@@ -23,5 +23,5 @@ def post_new_kit(model): # Envía una solicitud para crear un kit para este usua
     return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH,
                          json = model,
                          headers = headers)
-response_new_kit = post_new_kit(data.kit_body)
+
 
